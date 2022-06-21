@@ -15,6 +15,6 @@ export class AppComponent implements OnInit {
     const main = runtime.module(define, Inspector.into(document.body));
   }
   ngOnInit(): void {
-    console.log('not empty');
+    console.log('not empty rule, testing prehook');
   }
 }
