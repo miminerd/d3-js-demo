@@ -1,5 +1,5 @@
 function _Swatches(d3,htl){return(
-function Swatches(color, {
+function Swatches(color,{
   columns = null,
   format,
   unknown: formatUnknown,

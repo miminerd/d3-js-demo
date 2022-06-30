@@ -1,11 +1,19 @@
-.container {
-  display: grid;
-  grid-template-columns: 40% 40%;
-  justify-content: space-around;
+.header-container {
+  margin: 8px;
 }
-.demo1 {
-  background: rgba(255, 213, 70, 0.4);
+.legend-is-orange {
+  color: #fff;
+  background: rgb(217, 95, 2);
 }
-.demo2 {
-  background: rgba(138, 70, 255, 0.4);
+.legend-is-green {
+  color: #fff;
+  background: rgb(27, 158, 119);
+}
+.legend-is-purple {
+  color: #fff;
+  background: rgb(117, 112, 179);
+}
+.legend-is-rose {
+  color: #fff;
+  background: rgb(231, 41, 138);
 }
