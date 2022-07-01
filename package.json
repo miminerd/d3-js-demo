@@ -13,7 +13,7 @@
     "storybook": "npm run docs:json && start-storybook -p 6006",
     "build-storybook": "npm run docs:json && build-storybook",
     "prepare": "husky install",
-    "format": "prettier --write src/*.ts"
+    "format": "prettier --write src/**/*.ts"
   },
   "lint-staged": {
     "*.ts": [
