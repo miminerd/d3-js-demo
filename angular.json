@@ -116,6 +116,7 @@
       }
     }
   },
+  "defaultProject": "d3-demo",
   "cli": {
     "defaultCollection": "@angular-eslint/schematics"
   }
