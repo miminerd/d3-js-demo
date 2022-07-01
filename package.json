@@ -20,6 +20,11 @@
     ],
     "*.md": "prettier --list-different"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged --relative"
+    }
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "^14.0.0",
